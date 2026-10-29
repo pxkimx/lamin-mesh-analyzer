@@ -134,5 +134,13 @@ draw are not measured.
 - `tests/`: quitting, theme and measurement tests
 
 ## Licence
-MIT; see `LICENSE`. The figures used by `test_images/validate_against_paper.py` belong to their publishers and
-are downloaded under their own licences (CC BY 4.0 and CC BY-NC-SA 3.0).
+MIT; see `LICENSE`.
+
+## Credits
+The validation in `test_images/` compares this tool with the meshworks traced by the original authors, using figures
+from two open-access papers. The figures are downloaded under their own licences, not redistributed here:
+- Shimi T, Kittisopikul M, et al. Structural organization of nuclear lamins A, C, B1, and B2 revealed by
+  superresolution microscopy. *Mol Biol Cell* 2015;26:4075. [doi:10.1091/mbc.E15-07-0461](https://doi.org/10.1091/mbc.E15-07-0461),
+  PMC4710238 (CC BY-NC-SA 3.0).
+- Kittisopikul M, et al. Quantitative analysis of nuclear lamins imaged by super-resolution light microscopy.
+  *Cells* 2019;8:361. [doi:10.3390/cells8040361](https://doi.org/10.3390/cells8040361), PMC6524165 (CC BY 4.0).
