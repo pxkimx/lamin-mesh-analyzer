@@ -1,0 +1,25 @@
+# --- the author's own data and results: never published ---
+*.tif
+*.tiff
+!example/synthetic_mesh.tif
+example/*.pdf
+results/
+assets/showcase.jpg
+assets/icon1024.png
+# third-party figures and anything derived from them (fetched by test_images/validate_against_paper.py)
+test_images/source_figures/
+test_images/crops/
+test_images/validation/
+# user-corrected training examples are saved outside the folder (~/Documents/Lamin Mesh training set), but just in case
+training*/
+
+# --- builds, caches, local files ---
+*.app/
+*.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.log
+.DS_Store

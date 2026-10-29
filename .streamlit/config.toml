@@ -1,0 +1,21 @@
+# Two themes; the app's Light | Dark switch picks one (theme.py). Keep the colours in step with theme.STREAMLIT.
+[theme]
+font = "sans serif"
+
+[theme.dark]
+primaryColor = "#22d3ee"
+backgroundColor = "#0a0f1c"
+secondaryBackgroundColor = "#16213a"
+textColor = "#e8eefc"
+
+[theme.light]
+primaryColor = "#0e7490"
+backgroundColor = "#eef1f6"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f172a"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 2000
